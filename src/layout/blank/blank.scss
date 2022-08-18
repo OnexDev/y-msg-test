@@ -1,0 +1,27 @@
+@import "src/utils/variables";
+
+.blank-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1;
+    color: $black;
+  }
+
+  p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1;
+    color: $black;
+  }
+}
